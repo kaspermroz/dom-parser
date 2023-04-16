@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #181818;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+.input-area,
+.output-area {
+  flex: 1;
+  padding: 20px;
+}
+
+h3 {
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 90%;
+  resize: none;
+  border: 1px solid #555;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #282828;
+  color: #ccc;
+  outline: none;
+}
